@@ -19,22 +19,6 @@ An offline AI-powered tool that diagnoses **plant diseases from leaf images and 
 
 ---
 
-## 📁 Folder Structure
-
-SYMOTOM_CHECKER/
-├── dataset/ # (Optional) Your training data
-├── plantenv/ # Virtual environment (ignored in Git)
-├── app.py # ✅ Main Streamlit app
-├── plant_disease_model.h5 # ✅ Trained TensorFlow model
-├── train_model.py # (Optional) Model training script
-└── README.md # Project documentation
-
-yaml
-Copy
-Edit
-
----
-
 ## 🛠️ How to Run
 
 ### 1. 🔧 Prerequisites
@@ -80,4 +64,5 @@ No internet needed once Gemma is downloaded.
 To retrain the image model, use train_model.py.
 
 🤖 Made by a Beginner | For the Gemma 3n Hackathon
-Built as part of a personal learning project and hackathon submission by Mehul Srivastava.
+
+Built as part of a personal learning project and hackathon submission by We Codex.
