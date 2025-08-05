@@ -1,0 +1,11 @@
+streamlit==1.35.0
+tensorflow==2.10.0
+pillow==10.3.0
+requests==2.31.0
+numpy==1.23.5
+ollama 
+gemma3n:e2b
+
+✅ How to Use
+After creating your virtual environment and activating it, install everything with:
+pip install -r requirements.txt
