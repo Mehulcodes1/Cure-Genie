@@ -28,23 +28,18 @@ An offline AI-powered tool that diagnoses **plant diseases from leaf images and 
 - Gemma model pulled locally:
   ```bash
   ollama pull gemma3n:e2b
+  
 2. 📦 Create Virtual Environment
-bash
-Copy
-Edit
 python -m venv plantenv
 plantenv\Scripts\activate    # Windows
 source plantenv/bin/activate # macOS/Linux
-3. 🧪 Install Requirements
-bash
-Copy
-Edit
+
+4. 🧪 Install Requirements
 pip install streamlit tensorflow pillow requests
-4. 🚀 Run the App
-bash
-Copy
-Edit
-streamlit run app.py
+
+6. 🚀 Run the App
+streamlit run app.py  in one terminal
+ollama run gemma:2b in other terminal
 Then open: http://localhost:8501
 
 💡 How It Works
@@ -66,3 +61,4 @@ To retrain the image model, use train_model.py.
 🤖 Made by a Beginner | For the Gemma 3n Hackathon
 
 Built as part of a personal learning project and hackathon submission by We Codex.
+
